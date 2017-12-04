@@ -15,6 +15,9 @@ def main():
 
 
 def run_test_sum_cosines():
+
+
+
     """ Tests the   sum_cosines   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this function.
@@ -28,9 +31,28 @@ def run_test_sum_cosines():
     print('--------------------------------------------------')
     print('Testing the   sum_cosines   function:')
     print('--------------------------------------------------')
+    # Test 1
+    expected = 4
+    answer = sum_cosines(6)
+    print('Test 1 Expected:', expected)
+    print('         Actual:', answer)
+
+    #Test 2
+    expected = 5
+    answer = sum_cosines(10)
+    print('Test 2 Expected:', expected)
+    print('         Answer:', answer)
+
+    # Test 3
+    expected = 6
+    answer = sum_cosines(10)
+    print('Test 2 Expected:', expected)
+    print('         Answer:', answer)
 
 
 def sum_cosines(n):
+    return
+
     """
     What comes in:  A non-negative integer n.
     What goes out:  The sum of the cosines of the integers
@@ -65,8 +87,27 @@ def run_test_sum_square_roots():
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
 
+    #Test 1
+    expected = 5
+    answer = sum_square_roots(5)
+    print('Test 1 Expected:', expected)
+    print('         Answer:', answer)
+
+    # Test 2
+    expected = 6
+    answer = sum_square_roots(10)
+    print('Test 1 Expected:', expected)
+    print('         Answer:', answer)
+
+    # Test 3
+    expected = 7
+    answer = sum_square_roots(10)
+    print('Test 1 Expected:', expected)
+    print('         Answer:', answer)
+
 
 def sum_square_roots(n):
+    return
     """
     What comes in:  A non-negative integer n.
     What goes out:  The sum of the square roots of the integers
