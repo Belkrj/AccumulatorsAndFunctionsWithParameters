@@ -6,6 +6,7 @@ in its simplest classic forms:
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Robert Belk.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
+import math
 
 
 def main():
@@ -51,7 +52,7 @@ def run_test_sum_cosines():
 
 
 def sum_cosines(n):
-    return
+    return sum_cosines(n)
 
     """
     What comes in:  A non-negative integer n.
